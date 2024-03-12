@@ -50,5 +50,5 @@ spec:
   storageCapacity: {{ .Values.csiDriver.storageCapacity }}
   {{- end }}
   {{- end }}
-
+  seLinuxMount: false
 {{- end }}
